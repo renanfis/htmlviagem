@@ -1,0 +1,272 @@
+.conteiner{
+margin: 60px auto 0px auto;
+width: 960px;
+}
+body{
+	
+
+	font-family: "DejaVu Serif";
+	
+	background-image: url("../imagens/noise.png");
+	background-attachment: fixed;
+        
+}
+
+header{
+
+	background-color: #7794A6;
+	top: 0px;
+	left: 1%;
+	right: 20px;
+	position: fixed;
+	width: 98%;
+	height: 50px;
+	border-bottom-right-radius: 15px 15px;
+	border-bottom-left-radius:15px 15px;
+	
+	
+}
+
+header ul{
+	
+	float: right;
+	
+	padding-right: 20px;
+}
+
+header li{
+	display: inline;
+	font-family: Dyuthi;
+	font-size: 18px;
+	color: #8FB6BF;
+	
+}
+header h2{
+	color:#8FB6BF;
+	margin: 10px 10px 10px 10px;
+	float: left;
+	font-size: 28px;
+	font-family: Dyuthi;
+	padding-top:3px;
+	padding-left: 5px;
+}
+	
+img.align-right 
+	{
+	float: right;
+	margin-left: 10px;
+	}
+	
+section p a{
+color: #0C2C40;
+text-decoration: none;
+	}
+	
+section h1 
+	{ 
+	color: #4682B4;
+	}
+
+section h2 a
+	{
+	
+	font-family: Dyuthi;
+	color: #0C2C40;
+	}
+
+section h2 
+	{
+	font-size: 28px;
+	font-family: Dyuthi;
+	margin-bottom: 5px;
+	margin-top: 5px;	
+	}
+	
+article p
+	{
+	margin-top: 8px ;
+	margin-bottom: 8px ;
+	font-family:DejaVu Serif;
+	text-align: justify;
+	}
+	
+img {
+	width: 400px;
+	height: 240px;
+	border: 1px solid #4682B4;
+	
+	margin: 0 10px 0 0;
+	padding: 2px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:10px 10px;
+	border-top-left-radius:10px 10px;
+	border-top-right-radius:10px 10px;	
+	}
+	
+
+img.centralizar	{
+	display: block;
+	margin: 0px auto;}
+
+	
+section img {
+	width: 250px;
+	height: 145px;
+	border: 1px solid #4682B4;
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 2px;
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius:10px 10px;
+	border-top-left-radius:10px 10px;
+	border-top-right-radius:10px 10px;
+}
+
+section {
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	border-bottom-left-radius:15px 15px;
+	
+	background-color:hsla(206, 91%, 100%, 0.6);
+	border-color:hsla(206, 0%, 57%, 0.0);
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	padding: 10px;		
+	}
+	
+
+	
+article {
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	border-bottom-left-radius:15px 15px;
+	background-color:hsla(206, 91%, 100%, 0.6);
+	border-color:hsla(206, 0%, 57%, 0.0);
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	
+	padding: 10px;
+		
+	}
+	
+article h1{
+	font-size: 230%;
+	font-family: Dyuthi;
+	color: #4682B4;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	}
+
+	
+
+footer {
+	background-color:hsla(206, 91%, 100%, 0.6);
+	border-color:hsla(206, 0%, 57%, 0.0);
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+	padding: 10px;
+	}
+	
+section a {
+	color: hsla(238, 100%, 33%, 1);
+	font-weight: bold;
+}
+
+footer {
+	border-bottom-right-radius: 15px 15px;
+	border-bottom-left-radius:15px 15px;
+	font-size: 12px; 
+	text-align: center; 
+	}
+	
+footer adress
+	{
+	float: left;
+	width: 320px;	
+	}
+
+
+.clear
+	{
+	clear: both;
+	}
+	
+header h2 a 
+	{
+	color:#0C2C40;
+	text-decoration: none;
+	}
+
+.music
+	{
+	clear: both;
+	position: fixed;
+	bottom: 0px;
+	left: 0px
+	}
+
+
+h1 a:hover {
+background-color: #4682B4;
+color: #FFF;
+}
+
+p.two{
+	max-height: 120px;
+	overflow: scroll;
+	margin-top: 10px;
+	font-size: 12px;
+	
+}
+
+aside {
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	border-bottom-left-radius:15px 15px;
+	background-color: hsla(206, 91%, 100%, 0.6);
+	border: 1px solid hsla(206, 0%, 57%, 0.0); 
+	float: right;
+	padding: 10px; 
+	
+	width: 268px;
+	position: fixed;
+	margin-left: 670px;
+	
+	max-height: 55%;
+	border-color:hsla(206, 0%, 57%, 0.0);
+	border: 1px solid #CCC;
+	}
+
+p.intro: first-letter {
+font-size: 200%;}
+	
+} 
+
+aside p {
+	font-size: 12px;
+	
+	}	
+aside h3 {
+	font-family: Dyuthi;
+	font-size: 20px;
+ 	margin-top: 10px;
+ 	margin-bottom: 5px;
+ 	} 
+ 
+aside ol { 
+	font-size: 16px; 
+	margin-top: 10px;
+	font-family: Dyuthi;
+	text-decoration: none;
+	}
+ aside a{
+ text-decoration: none;
+ color:#073A59
+ }
+ main { 
+ float: left; 
+ width: 660px; 
+ }

@@ -1,0 +1,98 @@
+.conteiner{
+margin: 0 auto;
+width: 960px;
+}
+body{
+
+
+	font-family: "carlito";
+	line-heignt: 1.6;
+	background-image: url("noise.png");
+        
+}
+
+table {
+width: 600px;}
+th, td {
+padding: 7px 10px 10px 10px;}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+border-bottom: 2px solid #111111;
+border-top: 1px solid #999;
+text-align: left;}
+tr.even {
+background-color: #efefef;}
+tr:hover {
+background-color: #c3e6e5;}
+
+
+article h1 {
+	
+}
+article h2 {
+	border-bottom: 1.5px solid #4682B4;
+	margin:0;
+	
+}
+
+article img {
+
+	height: 150px;
+	border: 1px solid #4682B4;
+	float: left;
+	margin: 10px 10px 0 0;
+	padding: 2px;
+}
+
+article {
+	background-color:hsla(206, 91%, 100%, 0.6);
+	border-color:hsla(206, 0%, 57%, 0.0);
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+	padding: 10px;	
+}
+
+article a {
+	color: hsla(238, 100%, 33%, 1);
+	font-weight: bold;
+}
+
+.footer {
+	font-size: 12px; 
+	text-align: center; }
+
+.clear{
+	clear: both;
+}
+h1 a {
+color:#191970;
+text-decoration: none;
+}
+
+h1 a:hover {
+background-color: #4682B4;
+color: #FFF;
+}
+
+aside {
+	background-color: hsla(206, 91%, 100%, 0.6);
+	border: 1px solid hsla(206, 0%, 57%, 0.0); 
+	float: right;
+	padding: 10px; 
+	width: 260px; }
+} 
+	
+aside h3 
+{ font-size: 14px;
+ margin-top: 0;
+ } 
+ 
+aside ol 
+ { font-size: 10px; }
+ 
+ main { 
+ float: left; 
+ width: 660px; 
+ }
